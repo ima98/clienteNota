@@ -1,0 +1,5 @@
+C:\Users\ilavi\Desktop\clienteNota\DemoNotas.exe
+C:\Users\ilavi\Desktop\clienteNota\DemoNotas.dll
+C:\Users\ilavi\Desktop\clienteNota\DemoNotas.deps.json
+C:\Users\ilavi\Desktop\clienteNota\DemoNotas.runtimeconfig.json
+C:\Users\ilavi\Desktop\clienteNota\DemoNotas.pdb

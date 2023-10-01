@@ -1,0 +1,16 @@
+﻿<Window x:Class="DemoNotas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoNotas"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="textblock" HorizontalAlignment="Left" Margin="57,35,0,0" TextWrapping="Wrap" Text="TextNota" VerticalAlignment="Top" Width="276" TextChanged="TextBox_TextChanged" Height="211"/>
+        <Button Content="Guardar nota" HorizontalAlignment="Left" Margin="57,300,0,0" VerticalAlignment="Top" Click="ButtonSave" Width="119"/>
+        <Button Content="Eliminar nota" HorizontalAlignment="Left" Margin="209,300,0,0" VerticalAlignment="Top" Click="ButtonDelete" Height="20" Width="124"/>
+        <Button Content="Leer notas" HorizontalAlignment="Left" Margin="659,300,0,0" VerticalAlignment="Top" Click="ButtonGetAll"/>
+        <ComboBox x:Name="combobox" HorizontalAlignment="Left" Margin="598,35,0,0" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>
